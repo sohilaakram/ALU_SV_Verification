@@ -35,13 +35,4 @@ class alu_trans;
                                 b_op dist {[0:2]:=BOP_ON_DIST  ,3:=300-BOP_ON_DIST };
     }
 
-/*
-    constraint A_assertion {
-        A dist {[0:2]:=ENABLE_DIST , 15:=20 , 31:=20};
-    }
-
-    constraint B_assertion {
-        B dist {[0:2]:=ENABLE_DIST  ,3:=100-ENABLE_DIST };
-    }
-*/
 endclass
