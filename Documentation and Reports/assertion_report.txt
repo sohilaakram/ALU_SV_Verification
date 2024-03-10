@@ -1,0 +1,67 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /ALU_tb/intf0
+=== Design Unit: work.intf
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      11        11         0   100.00%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Name                 Assertion   Design     Design     Lang File(Line)                Enable    Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV FPSA   Failure Pass    Failure EOS  Formal       Formal
+                     Type        Unit       UnitType                                            Count        Count    Count      Count      Count       Count  Count           Action Log     Log     Limit   Note Status       Radius
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/ALU_tb/intf0/ADD_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(116)                on            0       2360       7414        231      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/SUB_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(118)                on            0        432       9365        208      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/XOR_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(120)                on            0       1139       8642        224      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/AND_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(122)                on            0        799       8998        208      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/OR_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(124)                on            0        398       9401        206      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/XNOR_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(126)                on            0       1129       8655        220      10005          1           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/SUBONE_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(128)                on            0        723       9070        212      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/ADDTWO_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(130)                on            0        695       9099        211      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/NAND_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(132)                on            0       1015       8775        215      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/ALU_EN_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(134)                on            0        902       8883        220      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/ILLEGAL_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(136)                on            0          4       9804        197      10005          0           1 off CCCC   -       off   unlimited off                     
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Name                 Assertion   Design     Design     Lang File(Line)                Enable    Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV FPSA   Failure Pass    Failure EOS  Formal       Formal
+                     Type        Unit       UnitType                                            Count        Count    Count      Count      Count       Count  Count           Action Log     Log     Limit   Note Status       Radius
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/ALU_tb/intf0/ADD_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(116)                on            0       2360       7414        231      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/SUB_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(118)                on            0        432       9365        208      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/XOR_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(120)                on            0       1139       8642        224      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/AND_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(122)                on            0        799       8998        208      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/OR_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(124)                on            0        398       9401        206      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/XNOR_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(126)                on            0       1129       8655        220      10005          1           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/SUBONE_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(128)                on            0        723       9070        212      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/ADDTWO_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(130)                on            0        695       9099        211      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/NAND_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(132)                on            0       1015       8775        215      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/ALU_EN_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(134)                on            0        902       8883        220      10005          0           2 off CCCC   -       off   unlimited off                     
+/ALU_tb/intf0/ILLEGAL_ASSERTION
+                     Concurrent  intf       Verilog    SVA  intf.sv(136)                on            0          4       9804        197      10005          0           1 off CCCC   -       off   unlimited off                     
+
+Total Coverage By Instance (filtered view): 100.00%
+
