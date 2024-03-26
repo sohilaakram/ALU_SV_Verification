@@ -1,5 +1,5 @@
 
-# Design and Verification of ALU with SystemVerilog Environment 
+# Design and Verification of ALU with SystemVerilog and UVM
 
  
  ## Block Diagram
@@ -21,3 +21,7 @@
 
 ## System Verilog Environment Architecture
 ![ENV](https://github.com/sohilaakram/ALU_SV_Verification/assets/72949770/1fbdf33f-73ca-4c86-ac8a-1879d7f1810e)
+
+
+## UVM Environment Architecture
+![Picture2](https://github.com/sohilaakram/ALU_SV_Verification/assets/72949770/f284eb38-d51b-4335-8947-24cf9e5e6874)
